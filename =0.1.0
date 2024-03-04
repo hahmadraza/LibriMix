@@ -1,0 +1,4 @@
+Requirement already satisfied: pyloudnorm in /mnt2/miniconda3/envs/svoice/lib/python3.7/site-packages (0.1.1)
+Requirement already satisfied: future>=0.16.0 in /mnt2/miniconda3/envs/svoice/lib/python3.7/site-packages (from pyloudnorm) (0.18.3)
+Requirement already satisfied: scipy>=1.0.1 in /mnt2/miniconda3/envs/svoice/lib/python3.7/site-packages (from pyloudnorm) (1.7.3)
+Requirement already satisfied: numpy>=1.14.2 in /mnt2/miniconda3/envs/svoice/lib/python3.7/site-packages (from pyloudnorm) (1.21.6)
