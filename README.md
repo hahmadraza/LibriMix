@@ -5,8 +5,7 @@ and WHAM noise. It offers a free alternative to the WHAM dataset
 and complements it. It will also enable cross-dataset experiments.
 
 ### Generating LibriMix
-To generate LibriMix, clone the repo and run the main script : 
-[`generate_librimix.sh`](./generate_librimix.sh)
+To generate LibriMix 48k data, clone the repo and run follwing scripts : 
 
 ```
 git clone https://github.com/hahmadraza/LibriMix.git
