@@ -12,9 +12,12 @@ To generate LibriMix, clone the repo and run the main script :
 git clone https://github.com/hahmadraza/LibriMix.git
 cd LibriMix 
 python scripts/create_librispeech_metadata_48k.py --librispeech_dir /mnt3/svoice_48k_data/data
+
 python scripts/create_wham_metadata_48k.py --wham_dir /mnt3/svoice_48k_data/wham_noise_48k
+
 python scripts/create_librimix_metadata_48k.py --librispeech_dir /mnt3/svoice_48k_data/data --wham_dir /mnt3/svoice_48k_data/wham_noise_48k --librispeech_md_dir /mnt3/svoice_48k_data/data/metadata \
 --wham_md_dir /mnt3/svoice_48k_data/wham_noise_48k/metadata --metadata_outdir /mnt3/svoice_48k_data/data/Libri3Mix --nsrc 3
+
 python create_librimix_from_metadata_48k.py --librispeech_dir /mnt3/svoice_48k_data/data --metadata_dir /mnt3/svoice_48k_data/data/Libri3Mix --wham_dir /mnt3/svoice_48k_data/wham_noise_48k \
 --librimix_outdir /mnt3/Libri3Mix_48k --n_src 3 --freqs 48k -modes min --types mix_both
 ```
