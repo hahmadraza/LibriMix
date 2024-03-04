@@ -11,6 +11,7 @@ To generate LibriMix, clone the repo and run the main script :
 ```
 git clone https://github.com/hahmadraza/LibriMix.git
 cd LibriMix 
+
 python scripts/create_librispeech_metadata_48k.py --librispeech_dir /mnt3/svoice_48k_data/data
 
 python scripts/create_wham_metadata_48k.py --wham_dir /mnt3/svoice_48k_data/wham_noise_48k
